@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bars.css">
+</head>
+<body>
+    
+
+
+
+
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="homepage.html" class="active"><img id="imgn" width="40%" src="https://www.odysseafishing.com/wp-content/uploads/2015/08/garmin-logo-white-on-black148-1827219.png" alt="LOGO"></a>
+      <div id="myLinks">
+        <a href="homepage.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="watches.html">Our Watches</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <a id="lines" href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAHklEQVR4nGNgGBTgPxlgoN086MD/0UCkHPwf2YEIAKvam2UE27qjAAAAAElFTkSuQmCC">
+      </a>
+    </div>
+    
+    <!-- End smartphone / tablet look -->
+    </div>
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+
+
+
+
+
+</body>
+</html>

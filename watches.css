@@ -1,0 +1,401 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#headimg {
+    margin-top: 12vh;
+    padding-top: 3vh;
+}
+
+#men {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+}
+
+#tri {
+    border-bottom: 14vh solid rgb(1,145,206);
+    border-right: 16vw solid transparent;
+}
+
+#formen {
+    width: 50%;
+    height: 10vh;
+    padding-top: 4vh;
+    padding-left: 5vw;
+    background-image: linear-gradient(to left, rgb(1,145,206), rgb(146, 202, 226));
+    color: white;
+    text-align: right;
+    font-size: xx-large;
+    letter-spacing: 1vw;
+}
+
+#collection {
+    font-size: x-large;
+    text-align: left;
+    padding-left: 3vw;
+    width: 44vw;
+    padding-top: 4vh;
+    letter-spacing: 1vw;
+    color: rgb(1,145,206); 
+}
+
+#forrunner {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+#leftfor {
+    width: 50%;
+}
+
+#rightfor {
+    padding-top: 9vh;
+    margin-left: -10vw;
+    line-height: 5vh;
+}
+
+button {
+    margin-top: 5vh;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10px;
+    border-color: rgb(1,145,206);
+    background-color: rgb(1,145,206);
+    color: white;
+}
+
+button:hover {
+    border-color: rgb(1,145,206);
+    color: rgb(1,145,206);
+    background-color: white;
+}
+
+h2 {
+    color: rgb(1,145,206);
+}
+
+h3 {
+    color: rgb(1,145,206);
+}
+
+#marq {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+#rightmarq {
+    width: 50%;
+    padding-left: 8vw;
+}
+
+#leftmarq {
+    width: 50%;
+    text-align: right;
+    line-height: 5vh;
+    padding-top: 3vh;
+}
+
+#graphite {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+#leftgraph {
+    width: 50%;
+}
+
+#rightgraph {
+    padding-top: 6vh;
+    margin-left: -10vw;
+    line-height: 5vh;
+}
+
+#fiftyfive {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+#rightfifty {
+    width: 50%;
+    padding-left: 8vw;
+}
+
+#leftfifty {
+    width: 50%;
+    text-align: right;
+    line-height: 5vh;
+    padding-top: 3vh;
+}
+
+#venu {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+#leftvenu {
+    width: 50%;
+}
+
+#rightvenu {
+    padding-top: 6vh;
+    margin-left: -10vw;
+    line-height: 5vh;
+}
+
+#women {
+    margin-top: 30vh;
+    margin-bottom: 10vh;
+    display: flex;
+}
+
+#triw {
+    border-bottom: 14vh solid rgb(1,145,206);
+    border-left: 16vw solid transparent;
+}
+
+#forwomen {
+    width: 50%;
+    height: 10vh;
+    padding-top: 4vh;
+    background-image: linear-gradient(to right, rgb(1,145,206), rgb(146, 202, 226));
+    color: white;
+    text-align: left;
+    font-size: xx-large;
+    letter-spacing: 1vw;
+}
+
+#collectionw {
+    font-size: x-large;
+    text-align: right;
+    padding-right: 2vw;
+    width: 44vw;
+    padding-top: 4vh;
+    letter-spacing: 1vw;
+    color: rgb(1,145,206); 
+}
+
+#kids {
+    margin-top: 25vh;
+    margin-bottom: 10vh;
+    display: flex;
+}
+
+#trik {
+    border-bottom: 14vh solid rgb(1,145,206);
+    border-right: 16vw solid transparent;
+}
+
+#forkids {
+    width: 50%;
+    height: 10vh;
+    padding-top: 4vh;
+    padding-left: 5vw;
+    background-image: linear-gradient(to left, rgb(1,145,206), rgb(146, 202, 226));
+    color: white;
+    text-align: right;
+    font-size: xx-large;
+    letter-spacing: 1vw;
+}
+
+#collectionk {
+    font-size: x-large;
+    text-align: left;
+    padding-left: 3vw;
+    width: 44vw;
+    padding-top: 4vh;
+    letter-spacing: 1vw;
+    color: rgb(1,145,206); 
+}
+
+#bounce {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+#rightbounce {
+    width: 50%;
+    padding-left: 8vw;
+}
+
+#leftbounce {
+    width: 50%;
+    text-align: right;
+    line-height: 5vh;
+    padding-top: 3vh;
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+
+    #headimg {
+        margin-top: -3vh;
+    }
+
+    #collection {
+        display: none;
+    }
+
+    #men {
+        width: 190vw;
+    }
+
+    #formen {
+        text-align: center;
+        background-color: white;
+        background-image: linear-gradient(to right, white, white);
+        padding-top: 6vh;
+        margin-top: -12vh;
+
+        color: rgb(118, 118, 118);
+    }
+
+    #tri {
+        display: none;
+    }
+
+    #forrunner {
+        flex-direction: column;
+        text-align: center;
+        margin-top: -10vh;
+    }
+
+    #imgt {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    #leftfor {
+        padding-left: 25vw;
+    }
+
+    #rightfor {
+        padding-left: 10vw;
+        padding-top: 0;
+    }
+
+    button {
+        width: 30vw;
+        margin-top: 2vh;
+    }
+
+    #marq {
+        flex-direction: column-reverse;
+        margin-top: 30vh;
+        padding-left: 18vw;
+    }
+
+    #leftmarq {
+        text-align: center;
+        padding-left: 8vw;
+    }
+
+    #graphite {
+        flex-direction: column;
+        margin-top: 30vh;
+        padding-left: 24vw;
+    }
+
+    #rightgraph {
+        text-align: center;
+        margin-left: -50vw;
+    }
+
+    #collectionw {
+        display: none;
+    }
+
+    #triw {
+        display: none;
+    }
+
+    #forwomen {
+        width: 100%;
+        background-image: linear-gradient(to left, white, white);
+        color: rgb(118, 118, 118);
+        font-size: x-large;
+        text-align: center;
+    }
+
+    #fiftyfive {
+        flex-direction: column-reverse;
+        margin-top: -3vh;
+    }
+
+    #rightfifty {
+        padding-left: 25vw;
+    }
+
+    #leftfifty {
+        text-align: center;
+        width: 100%;
+    }
+
+    #venu {
+        flex-direction: column;
+    }
+
+    #leftvenu {
+        width: 100%;
+        padding-left: 20vw;
+    }
+
+    #rightvenu {
+        text-align: center;
+        padding-left: 10vw;
+    }
+
+    #collectionk {
+        display: none;
+    }
+
+    #trik {
+        display: none;
+    }
+
+    #forkids {
+        width: 100%;
+        text-align: center;
+        background-image: linear-gradient(to right, white, white);
+        color: rgb(118, 118, 118);
+    }
+
+    #bounce {
+        flex-direction: column-reverse;
+        margin-top: 0vh;
+    }
+
+    #rightbounce {
+        margin-left: 17vw;
+    }
+
+    #leftbounce {
+        text-align: center;
+        width: 100%;
+    }
+
+
+
+}
