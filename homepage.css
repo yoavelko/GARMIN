@@ -41,14 +41,70 @@
     justify-content: space-around;
 }
 
-.smallpic{
+#smallpic1{
     padding: 2vw;
     transition: all .2s ease-in-out;
 }
 
-.smallpic:hover {
+#smallpic1:hover {
     transform: scale(1.3);
 }
+
+#smallpic2{
+    padding: 2vw;
+    transition: all .2s ease-in-out;
+}
+
+#smallpic2:hover {
+    transform: scale(1.3);
+}
+
+#smallpic3{
+    padding: 2vw;
+    transition: all .2s ease-in-out;
+}
+
+#smallpic3:hover {
+    transform: scale(1.3);
+}
+
+#smallpic4{
+    padding: 2vw;
+    transition: all .2s ease-in-out;
+}
+
+#smallpic4:hover {
+    transform: scale(1.3);
+}
+
+#smallpic5{
+    padding: 2vw;
+    transition: all .2s ease-in-out;
+}
+
+#smallpic5:hover {
+    transform: scale(1.3);
+}
+
+#divshop {
+    margin-left: 15vw;
+    margin-top: 5vh;
+}
+
+#shop {
+    width: 20vw;
+    height: 5vh;
+    background-color: rgb(1,145,206);
+    color: white;
+    border-color: rgb(1,145,206);
+    border-radius: 10px;
+}
+
+#shop:hover {
+    background-color: white;
+    color: rgb(1,145,206);
+}
+
 
 body {
     width: 100vw;
