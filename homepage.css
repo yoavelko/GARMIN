@@ -93,11 +93,11 @@
 
 #shop {
     width: 20vw;
-    height: 5vh;
+    height: 7vh;
     background-color: rgb(1,145,206);
     color: white;
     border-color: rgb(1,145,206);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 #shop:hover {
