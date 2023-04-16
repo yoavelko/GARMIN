@@ -163,7 +163,7 @@ img {
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
     #modelselect {
         display: none;

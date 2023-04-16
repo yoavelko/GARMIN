@@ -85,7 +85,7 @@ button:hover {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
     #topimg {
         margin-top: -3vh;
