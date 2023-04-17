@@ -25,6 +25,7 @@ body {
     display: flex;
     margin: 2%;
     margin-left: 6%;
+    margin-right: 0;
     position: relative;
     transition: all 1s;
 }
