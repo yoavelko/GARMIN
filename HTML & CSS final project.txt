@@ -1,0 +1,8 @@
+github repository:
+
+https://github.com/yoavelko/GARMIN.git
+
+
+deployment link:
+
+https://fakegarmin.netlify.app/index.html
