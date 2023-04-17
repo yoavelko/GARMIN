@@ -40,6 +40,7 @@
     flex-direction: row;
     justify-content: space-around;
     overflow-x: hidden;
+    overflow: hidden;
 }
 
 #smallpic1{
