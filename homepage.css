@@ -5,6 +5,7 @@
 #headvid {
     width: 100vw;
     margin-top: 12vh;
+    z-index: -1;
 }
 
 #modelselect {

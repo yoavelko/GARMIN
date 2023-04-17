@@ -7,6 +7,21 @@
     <title>Garmin</title>
     <link rel="stylesheet" href="bars.css">
     <link rel="stylesheet" href="homepage.css">
+    <script>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            document.getElementById("head").style.height = "10vh";
+            document.getElementById("headlogo").style.margin = "1%";
+            document.getElementById("headlogo").style.marginLeft = "6%";
+            } else {
+            document.getElementById("head").style.height = "15vh";
+            document.getElementById("headlogo").style.margin = "2%";
+            document.getElementById("headlogo").style.marginLeft = "6%";
+            } 
+        }
+    </script>
 </head>
 <body>
 
@@ -14,7 +29,7 @@
 
         <div id="headlogo">
             <a href="index.html">
-                <img width="100%" src="https://www.odysseafishing.com/wp-content/uploads/2015/08/garmin-logo-white-on-black148-1827219.png" alt="LOGO">
+                <img width="70%" src="https://www.odysseafishing.com/wp-content/uploads/2015/08/garmin-logo-white-on-black148-1827219.png" alt="LOGO">
             </a>
         </div>
 
